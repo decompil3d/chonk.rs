@@ -1,5 +1,5 @@
 [package]
-name = "chonk"
+name = "chonk-cli"
 version = "0.1.0"
 authors = ["Jonathan Keslin <github@jonathankeslin.com>"]
 license = "MIT"
