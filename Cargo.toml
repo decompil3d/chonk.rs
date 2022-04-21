@@ -1,0 +1,19 @@
+[package]
+name = "chonk"
+version = "0.1.0"
+authors = ["Jonathan Keslin <github@jonathankeslin.com>"]
+license = "MIT"
+description = "Check the size of a file and determine its chonkiness"
+readme = "README.md"
+homepage = "https://github.com/decompil3d/chonk.rs"
+repository = "https://github.com/decompil3d/chonk.rs"
+keywords = ["cli", "chonk", "filesize"]
+categories = ["command-line-utilities", "filesystem"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ansi_term = "0.12"
+clap = { version = "3.1.10", features = ["derive"] }
+exitcode = "1.1.2"
