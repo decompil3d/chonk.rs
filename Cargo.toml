@@ -1,6 +1,6 @@
 [package]
 name = "chonk-cli"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jonathan Keslin <github@jonathankeslin.com>"]
 license = "MIT"
 description = "Check the size of a file and determine its chonkiness"
